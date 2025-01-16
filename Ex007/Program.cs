@@ -9,7 +9,7 @@
 
             Console.Write("Digite a primeira nota do aluno (a): ");
             n1 = Convert.ToDouble(Console.ReadLine());
-
+            
             Console.Write("Digite a primeira nota do aluno (a): ");
             n2 = Convert.ToDouble(Console.ReadLine());
 
