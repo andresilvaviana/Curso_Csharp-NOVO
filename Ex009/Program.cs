@@ -4,12 +4,20 @@
     {
         static void Main(string[] args)
         {
-            int distancia, valor;
-            
-            Console.WriteLine("qual a distancia da sua casa ate o seu destino? ")
-            distancia = Convert.ToInt32(Console.ReadLine());
+            int num;
 
-            if (distancia >  )
+            Console.WriteLine("Qual o numero? ");
+            num = Convert.ToInt32(Console.ReadLine());
+
+            if ( num % 2 == 0)
+            {
+                Console.WriteLine("Par {0}", num);
+            }
+            else
+            {
+                Console.WriteLine("impar {0}", num); 
+            }
+
         }
     }
 }
