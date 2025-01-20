@@ -1,4 +1,6 @@
-﻿namespace Ex0010
+﻿using System.ComponentModel.Design;
+
+namespace Ex0010
 {
     internal class Program
     {
@@ -15,11 +17,15 @@
             Console.Write("Digite o valor do lado C: ");
             ladoC = Convert.ToInt32(Console.ReadLine());
 
-
-
-
-
-
+            if ((ladoA < ladoB + ladoC) && (ladoB < ladoA + ladoC) && (ladoC < ladoA + ladoB))
+            {
+                Console.WriteLine("Os valores informados formao um trinagulo.");
+            }
+            else
+            {
+                Console.WriteLine("Os valores informados não formam um triangulo.");
+            }
         }
+
     }
 }
