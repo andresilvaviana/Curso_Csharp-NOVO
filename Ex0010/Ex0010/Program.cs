@@ -20,6 +20,18 @@ namespace Ex0010
             if ((ladoA < ladoB + ladoC) && (ladoB < ladoA + ladoC) && (ladoC < ladoA + ladoB))
             {
                 Console.WriteLine("Os valores informados formao um trinagulo.");
+                if ((ladoA == ladoB) && (ladoB == ladoC))
+                {
+                    Console.WriteLine("E ele é um triangulo equilatero.");
+                }
+                else if ((ladoA == ladoB) || (ladoA == ladoC) || (ladoB == ladoC))
+                {
+                    Console.WriteLine("E ele é um triangulo isósceles.");
+                }
+                else
+                {
+                    Console.WriteLine("E ele é um trinagulo escaleno.");
+                }
             }
             else
             {
