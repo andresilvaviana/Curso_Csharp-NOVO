@@ -66,12 +66,12 @@ namespace Calculado
         static void multiplicacao(double num1, double num2)
         {
             double s = num1 * num2;
-            Console.WriteLine($"{num1 * num2} = {s} ");
+            Console.WriteLine($"{num1} * {num2} = {s} ");
         }
         static void divisao(double num1, double num2)
         {
             double s = num1 / num2;
-            Console.WriteLine($"{num1 / num2} = {s} ");
+            Console.WriteLine($"{num1} / {num2} = {s} ");
         }
 
         static void escreva(string texto)
