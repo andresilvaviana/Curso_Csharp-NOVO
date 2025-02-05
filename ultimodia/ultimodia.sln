@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ultimodia", "ultimodia\ultimodia.csproj", "{586AD4E7-5F15-4FE6-9E5F-932DAE3E4A86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{586AD4E7-5F15-4FE6-9E5F-932DAE3E4A86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586AD4E7-5F15-4FE6-9E5F-932DAE3E4A86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586AD4E7-5F15-4FE6-9E5F-932DAE3E4A86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586AD4E7-5F15-4FE6-9E5F-932DAE3E4A86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C1251B0-0FB6-423B-881D-30D661212309}
+	EndGlobalSection
+EndGlobal
